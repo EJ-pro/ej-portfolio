@@ -268,19 +268,6 @@ section .about-self .right .social a{
 }
 
 /* What I Do Section Styles */
-.do {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.do-inner-group {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
 section .do-me::after{
   content:"";
   display:block;
@@ -288,7 +275,7 @@ section .do-me::after{
 }
 section .do-me .do-inner{
   background-color:#fff;
-  width:30%;
+  width:40%;
   padding:2rem; 
   float:left;
   margin-right:5%;
